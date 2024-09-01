@@ -1,0 +1,37 @@
+{
+  "name": "next-flicking-test-yarn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@egjs/flicking": "^4.11.4",
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/react-flicking": "^4.11.4",
+    "@svgr/webpack": "^8.1.0",
+    "classnames": "^2.5.1",
+    "framer-motion": "^11.3.31",
+    "nanoid": "^5.0.7",
+    "next": "14.2.7",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-signature-canvas": "^1.0.6",
+    "sass": "^1.77.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/prop-types": "^15",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-signature-canvas": "^1",
+    "prop-types": "^15.8.1",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@4.4.1"
+}
